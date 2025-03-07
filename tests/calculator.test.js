@@ -13,6 +13,11 @@ describe('Calculator Calculation Functions', function() {
     it('should return 2', function() {
         assert.strictEqual(res, 2);
     });
+
+
+    it("should return 1/2", () => {
+        assert.strictEqual(calculator.calculateReciprocal(2), 1/2);
+    })
 });
 
 
